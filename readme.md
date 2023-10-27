@@ -13,12 +13,12 @@ The feauteres I have included are:
 - Easily change controls by changing keys in the `handle_input()` method of the `QuantumCircuitGrid` class.
 
 
-**If this project is helpful for you or you liked my work, consider supporting me through <a href="https://ko-fi.com/jaisarita" target="_blank">Ko.fi</a>.**
+**If this project is helpful for you or you liked my work, consider supporting me through <a href="https://ko-fi.com/jaisarita" target="_blank">Ko.fi🍵</a>. Also, kindly consider giving a star to this repository.😁**
 
 <!-- ------------------------------------------------------------------------- -->
 <h2>About me</h2>
 
-I am Ashmit JaiSarita Gupta, an engineering physics undergraduate passionate about Quantum Computing, Machine Learning, UI/UX, and Web Development. I have worked on many projects in these fields, participated in hackathons, and am a part of great organisations in these fields. You can explore more about me, my work and my experience at various organisations through my portfolio website: <a href='https://jaisarita.vercel.app/' target="_blank">https://jaisarita.vercel.app/</a> ☄️
+I am Ashmit JaiSarita Gupta, an Engineering Physics Undergraduate passionate about Quantum Computing, Machine Learning, UI/UX, and Web Development. I have worked on many projects in these fields, participated in hackathons, and am a part of great organisations in these fields. You can explore more about me, my work and my experience at various organisations through my portfolio website: <a href='https://jaisarita.vercel.app/' target="_blank">https://jaisarita.vercel.app/</a> ☄️
 
 <!-- ------------------------------------------------------------------------- -->
 <h2>Usage</h2>
