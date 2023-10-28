@@ -1,8 +1,8 @@
-![Quantum Circuit Game Engine](https://github.com/devilkiller-ag/Quantum-Circuit-Engine-for-Pygame-based-Quantum-Games/assets/43639341/3c06e1c5-d66c-4474-b15c-b8155cd9261c)
+![Quantum Circuit Game Engine](https://github.com/devilkiller-ag/Quantum-Circuit-Game-Engine/assets/43639341/a88b68f7-28be-47e4-8b7e-91dd0bd5be90)
 
-<h1>Quantum Circuit Engine for Pygame-based Quantum Games</h1>
+<h1>Quantum Circuit Game Engine for Pygame-based Quantum Games</h1>
 
-This is a Quantum Circuit Engine for integrating Quantum Circuits into your Pygame-based quantum game. You can use it simply by creating an object of the `QuantumCircuitGrid` class stored in the `quantum_circuit.py` file.
+This is a Quantum Circuit Game Engine for integrating Quantum Circuits into your Pygame-based quantum game. You can use it simply by creating an object of the `QuantumCircuitGrid` class stored in the `quantum_circuit.py` file.
 
 This Quantum Circuit was originaly created for the **QPong Game** developed by <a href='https://huangjunye.github.io/' target='_blank'>Junye Huang</a> in the <a href="https://www.youtube.com/playlist?list=PLOFEBzvs-VvodTkP_rfrs3RWdeWE9aNRD" target='_blank'>12 Days of Qiskit Program</a>. I created this engine by re-writing its code located <a href='https://github.com/QPong/qpong-livestream' target='_blank'>here</a> to make it modular and abstract for easy use with any quantum game. 
 
