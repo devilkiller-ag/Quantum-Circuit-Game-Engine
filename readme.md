@@ -1,15 +1,17 @@
-<h1>Quantum Circuit Engine for Pygame based Quantum Games</h1>
+![Quantum Circuit Game Engine](https://github.com/devilkiller-ag/Quantum-Circuit-Engine-for-Pygame-based-Quantum-Games/assets/43639341/3c06e1c5-d66c-4474-b15c-b8155cd9261c)
 
-This is a Quantum Circuit Engine  for integrating Quantum Circuits to your pygame based quantum game. You can use it simply by creating an object of `QuantumCircuitGrid` class stored in `quantum_circuit.py` file.
+<h1>Quantum Circuit Engine for Pygame-based Quantum Games</h1>
+
+This is a Quantum Circuit Engine for integrating Quantum Circuits into your Pygame-based quantum game. You can use it simply by creating an object of the `QuantumCircuitGrid` class stored in the `quantum_circuit.py` file.
 
 This Quantum Circuit was originaly created for the **QPong Game** developed by <a href='https://huangjunye.github.io/' target='_blank'>Junye Huang</a> in the <a href="https://www.youtube.com/playlist?list=PLOFEBzvs-VvodTkP_rfrs3RWdeWE9aNRD" target='_blank'>12 Days of Qiskit Program</a>. I created this engine by re-writing its code located <a href='https://github.com/QPong/qpong-livestream' target='_blank'>here</a> to make it modular and abstract for easy use with any quantum game. 
 
-The feauteres I have included are:
-- Modualar and Abstract Code.
-- All configurations at one place in the `config.py` file.
-- Developers can create Quantum Circuit for any number of qubit/wires and circuit width (max. number of gates which can be applied in a wire) of their choice. 
+The features I have included are:
+- Modular and Abstract Code.
+- All configurations in one place in the `config.py` file.
+- Developers can create a Quantum Circuit for any number of qubit/wires and circuit width (max. number of gates which can be applied in a wire) of their choice. 
 - Easy to change UI by replacing color configs and graphics for gates with those of your choice. 
-- Easy to change size of Quantum Circuit by adjusting `QUANTUM_CIRCUIT_TILE_SIZE`, `GATE_TILE_WIDTH` and `GATE_TILE_HIEGHT` in the `config.py` file.
+- Easy to change the size of Quantum Circuit by adjusting `QUANTUM_CIRCUIT_TILE_SIZE`, `GATE_TILE_WIDTH`, and `GATE_TILE_HIEGHT` in the `config.py` file.
 - Easily change controls by changing keys in the `handle_input()` method of the `QuantumCircuitGrid` class.
 
 
@@ -18,12 +20,12 @@ The feauteres I have included are:
 <!-- ------------------------------------------------------------------------- -->
 <h2>About me</h2>
 
-I am Ashmit JaiSarita Gupta, an Engineering Physics Undergraduate passionate about Quantum Computing, Machine Learning, UI/UX, and Web Development. I have worked on many projects in these fields, participated in hackathons, and am a part of great organisations in these fields. You can explore more about me, my work and my experience at various organisations through my portfolio website: <a href='https://jaisarita.vercel.app/' target="_blank">https://jaisarita.vercel.app/</a> ☄️
+I am Ashmit JaiSarita Gupta, an Engineering Physics Undergraduate passionate about Quantum Computing, Machine Learning, UI/UX, and Web Development. I have worked on many projects in these fields, participated in hackathons, and am a part of great organizations in these fields. You can explore more about me, my work, and my experience at various organizations through my portfolio website: <a href='https://jaisarita.vercel.app/' target="_blank">https://jaisarita.vercel.app/</a> ☄️
 
 <!-- ------------------------------------------------------------------------- -->
 <h2>Usage</h2>
 
-You can use it simply by creating an object of `QuantumCircuitGrid` class stored in `quantum_circuit.py` file. The constructor of `QuantumCircuitGrid` takes these values as argument:
+You can use it simply by creating an object of the `QuantumCircuitGrid` class stored in the `quantum_circuit.py` file. The constructor of `QuantumCircuitGrid` takes these values as argument:
 
 - `position`: Position of the Quantum Circuit in the game window.
 - `num_qubits`: Number of Qubits in the Quantum Circuit.
@@ -43,9 +45,9 @@ def run_quantum_circuit(self, quantum_circuit):
 <!-- ------------------------------------------------------------------------- -->
 <h2>Configurations</h2>
 
-All the configurations for Quantum Circuit can be done in the `config.py` file. The controls of the quantum circuit in the game can be changed from defaults mentioned below by changing keys in the `handle_input()` method of the `QuantumCircuitGrid` class.
+All the configurations for Quantum Circuit can be done in the `config.py` file. The controls of the quantum circuit in the game can be changed from the defaults mentioned below by changing keys in the `handle_input()` method of the `QuantumCircuitGrid` class.
 
-- You can change size of Quantum Circuit by adjusting `QUANTUM_CIRCUIT_TILE_SIZE`, `GATE_TILE_WIDTH` and `GATE_TILE_HIEGHT` in the `config.py` file.
+- You can change the size of Quantum Circuit by adjusting `QUANTUM_CIRCUIT_TILE_SIZE`, `GATE_TILE_WIDTH`, and `GATE_TILE_HIEGHT` in the `config.py` file.
 - You can change UI colors by replacing colors `QUANTUM_CIRCUIT_BG_COLOR`, `QUANTUM_CIRCUIT_WIRE_COLOR`, and `QUANTUM_GATE_PHASE_COLOR` in the `config.py` file.
 - You can use custom graphics for gates by replacing the graphics in the `graphics/quantum_circuit_gates` folder with those of your choice. 
 
