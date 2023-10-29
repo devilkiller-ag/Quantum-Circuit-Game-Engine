@@ -1,4 +1,4 @@
-ASSETS_PATH = 'graphics/quantum_circuit_gates'
+ASSETS_PATH = 'graphics'
 
 GATES = {
     'EMPTY': 0,

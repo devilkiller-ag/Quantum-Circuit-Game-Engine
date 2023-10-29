@@ -23,6 +23,12 @@ The features I have included are:
 I am Ashmit JaiSarita Gupta, an Engineering Physics Undergraduate passionate about Quantum Computing, Machine Learning, UI/UX, and Web Development. I have worked on many projects in these fields, participated in hackathons, and am a part of great organizations in these fields. You can explore more about me, my work, and my experience at various organizations through my portfolio website: <a href='https://jaisarita.vercel.app/' target="_blank">https://jaisarita.vercel.app/</a> ☄️
 
 <!-- ------------------------------------------------------------------------- -->
+<h2>Installation</h2>
+
+```bash
+pip install qcge
+```
+<!-- ------------------------------------------------------------------------- -->
 <h2>Usage</h2>
 
 You can use it simply by creating an object of the `QuantumCircuitGrid` class stored in the `quantum_circuit.py` file. The constructor of `QuantumCircuitGrid` takes these values as argument:
