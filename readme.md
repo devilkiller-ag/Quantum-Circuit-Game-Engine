@@ -1,4 +1,4 @@
-![Quantum Circuit Game Engine](https://github.com/devilkiller-ag/Quantum-Circuit-Game-Engine/assets/43639341/a88b68f7-28be-47e4-8b7e-91dd0bd5be90)
+![Quantum Circuit Game Engine](https://github.com/devilkiller-ag/Quantum-Circuit-Game-Engine/assets/43639341/dd998bca-c47b-44fd-8ed2-19724cbc57a2)
 
 <h1>Quantum Circuit Game Engine for Pygame-based Quantum Games</h1>
 
