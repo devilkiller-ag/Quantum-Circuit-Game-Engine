@@ -47,9 +47,17 @@ def run_quantum_circuit(self, quantum_circuit):
 
 All the configurations for Quantum Circuit can be done in the `config.py` file. The controls of the quantum circuit in the game can be changed from the defaults mentioned below by changing keys in the `handle_input()` method of the `QuantumCircuitGrid` class.
 
-- You can change the size of Quantum Circuit by adjusting `QUANTUM_CIRCUIT_TILE_SIZE`, `GATE_TILE_WIDTH`, and `GATE_TILE_HIEGHT` in the `config.py` file.
-- You can change UI colors by replacing colors `QUANTUM_CIRCUIT_BG_COLOR`, `QUANTUM_CIRCUIT_WIRE_COLOR`, and `QUANTUM_GATE_PHASE_COLOR` in the `config.py` file.
-- You can use custom graphics for gates by replacing the graphics in the `graphics/quantum_circuit_gates` folder with those of your choice. 
+- You can change the size of Quantum Circuit by passing optional parameters `tile_size`, and `gate_dimensions` (= [GATE_TILE_WIDTH, GATE_TILE_HIEGHT]) to the `qcge.QuantumCircuitGrid` class as parameters.
+- You can change UI colors by passing optional parameters `background_color`, `wire_color`, and `gate_phase_angle_color` to the `qcge.QuantumCircuitGrid` class as parameters.
+
+Default values of these optional parameter are:
+```python
+tile_size = 36
+gate_dimensions = [24, 24]
+background_color = '#444654'
+wire_color = '#ffffff'
+gate_phase_angle_color = '#97ad40'
+```
 
 <!-- ------------------------------------------------------------------------- -->
 <h2>Game Controls for Building Quantum Circuit</h2>
