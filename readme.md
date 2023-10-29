@@ -30,6 +30,11 @@ You can use it simply by creating an object of the `QuantumCircuitGrid` class st
 - `position`: Position of the Quantum Circuit in the game window.
 - `num_qubits`: Number of Qubits in the Quantum Circuit.
 - `num_columns`: Circuit width (max. number of gates which can be applied in a wire) of their choice.
+- `tile_size` (Optional, Default Value = 36): Size of single tile unit of the Quantum Circuit. It is the square area containing single gate in the quantum circuit.
+- `gate_dimensions` (Optional Default Value = [24, 24]): [Width, Height] of quantum gates.
+- `background_color` (Optional Default Value = '#444654'): Background Color of the Quantum Circuit.
+- `wire_color` (Optional Default Value = '#ffffff'): Color of Quantum Wire in the Quantum Circuit.
+- `gate_phase_angle_color` (Optional Default Value = '#97ad40'): Color to represent phase angle of Rotation Gates.
 
 You can run your quantum circuit on BasicAer Simulator by using this function:
 ```python
