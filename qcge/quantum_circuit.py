@@ -3,7 +3,7 @@ from qiskit import QuantumRegister, QuantumCircuit
 import numpy as np
 
 from pygame.image import load as loadImage
-from configs import *
+from qcge.configs import *
 
 
 class QuantumCircuitGridBackground(pygame.sprite.Sprite):
