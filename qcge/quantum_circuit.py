@@ -3,19 +3,19 @@ from qiskit import QuantumRegister, QuantumCircuit
 import numpy as np
 
 from pygame.image import load as loadImage
-from configs import *
+from qcge.configs import *
 
 
 class QuantumCircuitGridBackground(pygame.sprite.Sprite):
     def __init__(self, qc_grid_model, background_color, wire_color, tile_size, wire_line_width):
         super().__init__()
         self.qc_grid_model = qc_grid_model
+        self.tile_size = tile_size 
+        self.wire_color = wire_color
+        self.wire_line_width = wire_line_width
+        self.background_color = background_color
         self.width = self.tile_size * (self.qc_grid_model.num_columns + 2)
         self.height = self.tile_size * (self.qc_grid_model.num_qubits + 1)
-        self.background_color = background_color
-        self.wire_color = wire_color
-        self.tile_size = tile_size
-        self.wire_line_width = wire_line_width
 
         # BACKGROUND SURFACE
         self.image = pygame.Surface((self.width, self.height))
@@ -311,7 +311,7 @@ class QuantumCircuitGrid(pygame.sprite.RenderPlain):
         self.current_column = 0
         
         self.qc_grid_model = QuantumCircuitGridModel(num_qubits, num_columns)
-        self.qc_grid_background = QuantumCircuitGridBackground(self.qc_grid_model, background_color=self.background_color, wire_color=self.wire_color, tile_size=self.tile_size)
+        self.qc_grid_background = QuantumCircuitGridBackground(self.qc_grid_model, background_color=self.background_color, wire_color=self.wire_color, tile_size=self.tile_size, wire_line_width=self.wire_line_width)
         self.qc_grid_marker = QuantumCircuitGridMarker()
 
         self.gate_tiles = np.zeros(
